@@ -6,7 +6,7 @@ user = int(input("write a number: " ))
 #print(prints)
 
 i = 0
-while i <len(list):
+while i < len(list):
     if(list[i] == user):
-        print("i found it ", user)
-    i += 1 
+        print("i found ", user ,"AT" , i)
+    i += 1
