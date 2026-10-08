@@ -9,10 +9,9 @@ while i <= 10:
 
 #number will be given by user 
 
-user = input("write a number")
-user2 = int(user)
+input = int(input("write a number", ))
 
-i = 1
-while i <= 10:
-    print(i* user2)
-    i += 1
+i = input
+while i <= 20 :
+    print(i)
+    i += 2
