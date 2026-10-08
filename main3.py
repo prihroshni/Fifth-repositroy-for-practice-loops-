@@ -12,6 +12,6 @@ while i <= 10:
 input = int(input("write a number", ))
 
 i = input
-while i <= 20 :
+while i <= 30 :
     print(i)
-    i += 2
+    i += input
