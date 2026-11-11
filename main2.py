@@ -2,5 +2,5 @@
 
 i = 100 
 while i  >= 1:
-    print("cat",i)
+    print(i)
     i -= 1 
