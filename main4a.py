@@ -1,7 +1,7 @@
-#print the name is list 
-list = ["roshniiiiiii", "prihh", "pythonnnn", "c++++++++" , "html", "cssss", "not  you java"]
+list = ["ro", "r3", "455", "88", "9", "iraaq"  , "iraan"]
 
-i = 0
-while i < len(list):
-    print(list[i])
-    i += 1
+ind = 0
+while ind < len(list):
+
+        print(list[ind])
+        ind += 1
