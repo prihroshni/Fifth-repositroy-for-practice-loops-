@@ -37,6 +37,19 @@ while i < len(nums):
 print("print end of loop")
 
 
+#----------------------------------------------
+#missing oe number
+i = 0 
+while i <= 5:
+    if(i ==3):
+        i += 1
+        continue
+    
+    print(i)
+    i += 1
+
+# how it will skip 3 = readme_break.md
+
 
 
 
