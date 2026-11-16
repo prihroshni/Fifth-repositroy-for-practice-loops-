@@ -50,7 +50,10 @@ while i <= 5:
 
 # how it will skip 3 = readme_break.md
 
-#-----------------------------> 
+
+
+
+#-----------------------------------------> 
 
 #printing only even 
 i = 0            #print even
@@ -64,7 +67,15 @@ while i <= 10:
 
 
 
+#printing odd
+i = 0            #print odd 
+while i <= 10:
+    if(i % 2 == 0):
+        i += 1
+        continue
 
+    print(i)
+    i += 1 
 
 
 
