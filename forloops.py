@@ -87,8 +87,16 @@ for el in list:
     print(el)
 
 
+#once found a , stop seeing other 
+list = [1, 4, 9, 16, 25, 36, 49, 64, 81,100 , 9]
 
-
+a = 9
+idx = 0
+for el in list:
+    if(el == a):
+        print(" i found" , a , "at" , idx )
+        break
+    idx += 1
 
 
 
