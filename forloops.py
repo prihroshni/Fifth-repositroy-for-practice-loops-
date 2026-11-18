@@ -25,4 +25,24 @@ tuple = (1,55,77,4,3,9,99,10099,3333)
 for val in tuple:
     print(val)
 
-#
+
+
+#want seperate characters
+string = "prihroshni"
+
+for char in string:
+    print(char) 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
