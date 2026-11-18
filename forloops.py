@@ -32,9 +32,15 @@ string = "prihroshni"
 
 for char in string:
     print(char) 
-    
 
 
+#loop ended i want something else to get print also, will use else
+list = [1,2,3,4]
+
+for el in list:
+    print(el)
+else:
+    print("end")
 
 
 
