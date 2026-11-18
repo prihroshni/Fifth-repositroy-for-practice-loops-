@@ -56,7 +56,22 @@ else:
     print("end") 
     
 
+#printing list via for loops
+list = [1, 4, 9, 16, 25, 36, 49, 64, 81,100]
 
+for el in list:
+    print(el)
+
+
+#finding a in list , output = all numbers + a 
+list = [1, 4, 9, 16, 25, 36, 49, 64, 81,100]
+
+a = 9
+for el in list:
+    if(el == a):
+        print(" i found" , a)
+
+    print(el)
 
 
 
