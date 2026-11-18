@@ -43,6 +43,19 @@ else:
     print("end")
 
 
+#else will not work if i use break statement
+list = [1,2,3,4]
+
+for el in list:
+    if(el == 3):
+        print("found 3")
+        break
+
+    print(el)
+else:
+    print("end") 
+    
+
 
 
 
