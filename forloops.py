@@ -12,4 +12,11 @@ for a in nums:
     print(a)
 
 
+#replce int with strings
+nums = ["roshni" , "prih", "abeha",  "ayesha" , "Python"]
 
+for a in nums:
+    print(a)
+
+
+#
