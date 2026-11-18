@@ -63,6 +63,19 @@ for el in list:
     print(el)
 
 
+#tracking its numbers index
+list = [1, 4, 9, 16, 25, 36, 49, 64, 81,100]
+
+a = 9
+idx = 0
+for el in list:
+    if(el == a):
+        print(" i found" , a , "at" , idx )
+    idx += 1
+
+    print(el)
+
+
 #finding a in list , output = all numbers + a 
 list = [1, 4, 9, 16, 25, 36, 49, 64, 81,100]
 
