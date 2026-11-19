@@ -21,5 +21,15 @@ for i in range(0,10,2):      #range( start , stop, step)  -- output = 0,2,4,6,8
     print(i)
 
 
+for i in range(1,100, 2):  #print odd 
+    print(i)
+
+for i in range(0,100,2): #print even
+    print(i)
+
+
+
+
+
 
 
