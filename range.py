@@ -8,6 +8,6 @@ for i in seq:
     print(i) 
 
 #same code in shrot lines
-for i in range(10):
+for i in range(5):#will print 0-4
     print(i)
   
