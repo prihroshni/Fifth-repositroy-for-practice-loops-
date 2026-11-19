@@ -3,6 +3,7 @@
 #printing range
 print(range(5))
 
+
 #applying loops in sequences 
 seq = range(5)
 
