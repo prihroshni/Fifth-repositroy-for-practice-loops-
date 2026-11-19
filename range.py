@@ -8,6 +8,9 @@ for i in seq:
     print(i) 
 
 #same code in shrot lines
-for i in range(5):#will print 0-4
+for i in range(5):     #will print 0-4
     print(i)
   
+for i in range(1,5):    #will print 1-4
+    print(i)
+
