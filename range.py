@@ -58,7 +58,7 @@ print("hello world")
 
 
 
-#to find the sum of first n numbers. (using while
+#to find the sum of first n numbers.
 n = 5
 sum = 0
 for i in range(1 , n+1):       #start , end , step
@@ -67,6 +67,16 @@ for i in range(1 , n+1):       #start , end , step
 print("total sum is ", sum)    
 
 
+##to find the sum of first n numbers. (using while
+
+n = 7
+sum = 0
+i = 1 
+while i <= n: 
+     sum += i
+     i += 1
+
+print("total sum is ", sum)    
 
 
 
