@@ -29,7 +29,23 @@ for i in range(0,100,2): #print even
 
 
 
+#printing numbers from 1-100
+for i in range(101):
+    print(i)
 
+
+#print numbers from 100-1
+for i in range(100 , 0, -1): 
+    print(i)
+
+
+#printing multiplication of input x 
+
+input= int(input("write a number ,"  ))
+
+x = input
+for i in range(x , 20, x): 
+    print(i)
 
 
 
