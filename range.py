@@ -47,5 +47,27 @@ x = input
 for i in range(x , 20, x): 
     print(i)
 
+#------------------------------------------->>>>>>
+
+#pass statements:
+#adding range but want to do anything in loop, will use word == "pass"  here"
+for i in range(5):
+    pass
+
+print("hello world")
+
+
+
+#to find the sum of first n numbers. (using while
+n = 5
+sum = 0
+for i in range(1 , n+1):       #start , end , step
+    sum += i
+
+print("total sum is ", sum)    
+
+
+
+
 
 
