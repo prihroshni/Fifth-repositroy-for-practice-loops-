@@ -1,7 +1,8 @@
-i = 0
-while i <= 5:
-    if(i == 4):
-        i +=1 
-        continue #skip 
-    print(i)
-    i += 1 
+n = 3
+fact = 1
+i = 1
+while i <= n:
+     fact *= i
+     i += 1
+
+print(fact)
