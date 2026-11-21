@@ -11,14 +11,32 @@ for i in range(n , n+1):
 
 
 #WAP to find using facotrial of first n numbers 
+#using while 
 n = 5
-sum = 0
+fact = 1
 i = 1
 while i <= n:
-     sum += i
+     fact += i
      i += 1
 
-print(sum)
+print(fact)
+
+
+#WAP to find using facotrial of first n numbers 
+#using while 
+
+n = 5 
+fact = 1
+
+for i in range(i , n+1):
+  fact *= i
+
+print(fact)
+
+
+
+
+
 
 
 
