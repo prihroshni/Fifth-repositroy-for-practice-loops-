@@ -6,4 +6,10 @@ for i in range(5):
 print("some work")
 
 
-#for this we will use :
+#for this we will use : passs
+
+for i in range(5):
+    pass
+
+
+print("some work")
